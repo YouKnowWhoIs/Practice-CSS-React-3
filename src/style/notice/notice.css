@@ -1,0 +1,42 @@
+#notes {
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.notesList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.notesItems {
+  list-style: none;
+  border: 2px solid #fbfbfb;
+  border-radius: 8px;
+  padding: 10px;
+  float: left;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.notesItems button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  transition: all 0.3s ease;
+}
+.notesItems button:hover {
+  background-color: #404040;
+  border: 2px solid #404040;
+}
+
+.notesItems input,
+textarea {
+  padding: 6px;
+}
+
+.notesItems textarea {
+  resize: none;
+}
