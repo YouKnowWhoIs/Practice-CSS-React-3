@@ -1,0 +1,56 @@
+#userApi {
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userApiList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .userApiList {
+    width: 600px;
+  }
+}
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+  .userApiList {
+    width: 900px;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .userApiList {
+    width: 1200px;
+  }
+}
+
+.userApiList li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  padding: 10px;
+  border: 3px solid #fbfbfb;
+  border-radius: 8px;
+}
+
+.userInfo {
+  padding-bottom: 15px;
+}
+
+.userInfo div {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.userAddress {
+  padding-bottom: 15px;
+}
+
+#userApi h2 {
+  padding-bottom: 10px;
+}
