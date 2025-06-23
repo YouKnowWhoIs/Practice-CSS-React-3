@@ -3,6 +3,7 @@ import "../style/index.css";
 import Notice from "./notice/Notice.jsx";
 import UserSort from "./userSort/UserSort.jsx";
 import UsersApi from "./usersApi/UsersApi.jsx";
+import Acardion from "./acardion/Acardion.jsx";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Notice />
       <UserSort />
       <UsersApi />
+      <Acardion />
     </>
   );
 }

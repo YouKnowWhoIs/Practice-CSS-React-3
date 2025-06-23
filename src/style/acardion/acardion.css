@@ -1,0 +1,26 @@
+#acardion {
+  margin: 0 auto;
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 400px;
+}
+
+#acardion button {
+  margin-bottom: 8px;
+  padding: 8px;
+  font-size: medium;
+  transition: all 0.3s ease;
+}
+
+#acardion button:hover {
+  background-color: #404040;
+  border: 2px solid #404040;
+}
+
+.acordionText {
+  padding: 10px;
+  border: 2px solid #bfbfbf;
+  border-radius: 8px;
+}
