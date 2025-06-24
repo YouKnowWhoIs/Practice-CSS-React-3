@@ -4,6 +4,7 @@ import Notice from "./notice/Notice.jsx";
 import UserSort from "./userSort/UserSort.jsx";
 import UsersApi from "./usersApi/UsersApi.jsx";
 import Acardion from "./acardion/Acardion.jsx";
+import Timer from "./timer/Timer.jsx";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <UserSort />
       <UsersApi />
       <Acardion />
+      <Timer />
     </>
   );
 }

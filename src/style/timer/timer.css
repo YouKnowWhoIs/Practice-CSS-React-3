@@ -1,0 +1,27 @@
+#timer {
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+#timer p {
+  font-size: 50px;
+}
+
+.conteinerBtn {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.conteinerBtn button {
+  padding: 10px;
+  font-size: larger;
+  transition: all 0.3s ease;
+}
+.conteinerBtn button:hover {
+  background-color: #404040;
+  border: 2px solid #404040;
+}
