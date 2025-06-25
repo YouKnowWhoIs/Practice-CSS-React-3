@@ -5,6 +5,7 @@ import UserSort from "./userSort/UserSort.jsx";
 import UsersApi from "./usersApi/UsersApi.jsx";
 import Acardion from "./acardion/Acardion.jsx";
 import Timer from "./timer/Timer.jsx";
+import Pagination from "./pagination/Pagination.jsx";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <UsersApi />
       <Acardion />
       <Timer />
+      <Pagination />
     </>
   );
 }

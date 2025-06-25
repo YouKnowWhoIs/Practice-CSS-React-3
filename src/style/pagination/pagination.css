@@ -1,0 +1,27 @@
+#pagination {
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.paginationList {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0;
+}
+
+.paginationList li {
+  list-style: none;
+}
+
+#pagination button {
+  font-size: larger;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+#pagination button:hover {
+  background-color: #404040;
+  border: 2px solid #404040;
+}
